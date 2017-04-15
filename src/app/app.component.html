@@ -1,3 +1,15 @@
 <h1>
-  {{title}}
+    Welcome {{team.name}}
 </h1>
+
+
+<div>
+    <h4>
+        <label> Position :</label> {{team.position}}
+        <br>
+        <label> Team Name :</label>
+        <input placeholder="Team Name " [(ngModel)]="team.name">
+
+    </h4>
+
+</div>
